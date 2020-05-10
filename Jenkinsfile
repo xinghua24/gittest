@@ -23,11 +23,6 @@ pipeline {
             sh 'echo \'Testing Edge\''
           }
         }
-        stage('Test Done') {
-          steps {
-            sh 'echo \'Testing Done!\''
-          }
-        }
       }
     }
     stage('Deploy') {
